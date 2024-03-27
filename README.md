@@ -3,6 +3,7 @@ Meta data accessing - ec2
 
 
 curl http://169.254.169.254/latest/meta-data/public-ipv4
+
 curl http://169.254.169.254/latest/meta-data/public-hostname
 
 wget http://s3.amazonaws.com/ec2metadata/ec2-metadata
